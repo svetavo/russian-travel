@@ -1,0 +1,10 @@
+.bottom{
+display: flex;
+margin-bottom: 92px;
+}
+
+@media screen and (max-width: 767px) {
+    .bottom{
+        margin-bottom: 64px;
+    }
+}
