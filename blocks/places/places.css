@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1279px){
     .places{
-        padding: 0
-
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

@@ -1,6 +1,4 @@
-.bottom__subtitle{
-position: absolute;
-width: 30%;
+.bottom__subtitle {
 color: white;
 font-style: normal;
 font-weight: 400;
@@ -8,7 +6,6 @@ font-size: 18px;
 line-height: 1.22;
 text-align: center;
 margin: auto;
-
 }
 
 @media screen and (max-width: 767px) {
@@ -19,7 +16,7 @@ margin: auto;
         right: 16px;
         left: 16px;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -29,7 +26,7 @@ margin: auto;
         right: 204px;
         left: 204px;
     }
-    
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -39,7 +36,7 @@ margin: auto;
         right: 332px;
         left: 332px;
     }
-    
+
 }
 
 @media screen and (min-width: 1280px) {

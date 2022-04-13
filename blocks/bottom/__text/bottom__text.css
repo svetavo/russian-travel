@@ -1,0 +1,6 @@
+.bottom__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 2;
+  }
