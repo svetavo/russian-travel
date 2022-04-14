@@ -1,14 +1,14 @@
-.cover{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 56px;
-    padding-left: 5%;
-    padding-right: 5%;
+.cover {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 56px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-@media  screen and (max-width: 1279px) {
-    .cover{
-        padding-top: 48px;
-    }
+@media screen and (max-width: 1279px) {
+  .cover {
+      padding-top: 48px;
+  }
 }

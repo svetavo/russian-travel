@@ -1,16 +1,15 @@
-.place__text{
-width: 100%;
-color: white;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 163%;
-margin: 0;
-
+.place__text {
+  width: 100%;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
 }
 
-@media screen and (max-width: 1023px){
-    .place__text{
-        font-size: 16px;
-    }
+@media screen and (max-width: 1023px) {
+  .place__text {
+      font-size: 16px;
+  }
 }

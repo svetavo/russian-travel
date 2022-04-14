@@ -1,10 +1,10 @@
-.bottom{
-max-width: 100%;
-margin-bottom: 92px;
+.bottom {
+  max-width: 100%;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 767px) {
-    .bottom{
-        margin-bottom: 64px;
-    }
+  .bottom {
+      margin-bottom: 64px;
+  }
 }

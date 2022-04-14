@@ -1,18 +1,18 @@
-.header__link{
-    display: block;
-    justify-content: flex-end;
-    margin-right: 18px;
-    width: 30px;
-    height: 28px;
-    color: white;
-    font-size: 24px;
-    text-decoration: none;
+.header__link {
+  display: block;
+  justify-content: flex-end;
+  margin-right: 18px;
+  width: 30px;
+  height: 28px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
 }
 
-.header__link:nth-child(2){
-    margin-right: 0;
+.header__link:nth-child(2) {
+  margin-right: 0;
 }
 
 .header__link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

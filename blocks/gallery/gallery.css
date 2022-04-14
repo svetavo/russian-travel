@@ -1,24 +1,24 @@
-.gallery{
-align-content: center;
-margin: auto;  
-padding-left: 5%;
-padding-right: 5%;
+.gallery {
+  align-content: center;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @media screen and (min-width: 1024px) {
-    .gallery{
-        margin-bottom: 92px;
-    }
+  .gallery {
+      margin-bottom: 92px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .gallery{
-        margin-bottom: 88px;
-    }
+  .gallery {
+      margin-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .gallery{
-        margin-bottom: 64px;
-    }
+  .gallery {
+      margin-bottom: 64px;
+  }
 }
