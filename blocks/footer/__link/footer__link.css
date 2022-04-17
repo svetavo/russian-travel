@@ -6,6 +6,8 @@
   line-height: 1.12;
   margin-right: 18px;
   text-decoration: none;
+  list-style-type: none;
+  border-bottom-color: #fff;
 }
 
 .footer__link:nth-child(5) {

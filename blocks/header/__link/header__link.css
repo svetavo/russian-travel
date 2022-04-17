@@ -2,8 +2,6 @@
   display: block;
   justify-content: flex-end;
   margin-right: 18px;
-  width: 30px;
-  height: 28px;
   color: white;
   font-size: 24px;
   text-decoration: none;
@@ -15,4 +13,10 @@
 
 .header__link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    font-size: 18px;
+  }
 }

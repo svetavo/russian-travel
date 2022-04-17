@@ -2,4 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+  }
 }

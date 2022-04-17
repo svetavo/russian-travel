@@ -1,14 +1,30 @@
 .cover {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 56px;
-  padding-left: 5%;
-  padding-right: 5%;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (min-width: 1280px) {
   .cover {
-      padding-top: 48px;
+      padding-left: 48px;
+      padding-right: 48px;
+      margin-bottom: 92px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+      margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+      margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+      margin-bottom: 88px;
+  }
+}
+

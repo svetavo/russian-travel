@@ -1,11 +1,11 @@
 .place__link {
   color: white;
-  bottom: 0;
-  left: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
+  margin: 0;
+  text-decoration: underline;
 }
 
 .place__link:hover {

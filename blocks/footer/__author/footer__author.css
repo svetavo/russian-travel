@@ -4,4 +4,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__author {
+      justify-items: flex-start;
+  }
 }

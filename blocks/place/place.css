@@ -2,27 +2,29 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 484px);
   justify-content: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-      grid-template-columns: repeat(auto-fill, 352px);
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 28px;
+      padding-bottom: 73px;
       row-gap: 48px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 767px) {
   .place {
       grid-template-columns: repeat(auto-fill, 100%);
       gap: 32px;
+      padding-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
-      grid-template-columns: repeat(auto-fill, 456px);
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 32px;
       row-gap: 48px;
   }
@@ -30,6 +32,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
+      grid-template-columns: repeat(2, 484px);
       gap: 40px;
   }
 }

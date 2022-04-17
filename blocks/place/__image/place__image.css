@@ -1,5 +1,13 @@
 .place__image {
   background-size: cover;
-  width: 100%;
   margin: 0;
+  width: 100%;
+  justify-self: center;
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    padding: 0;
+    width: 111%;
+  }
 }
