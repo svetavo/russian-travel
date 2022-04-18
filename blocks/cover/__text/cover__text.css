@@ -1,8 +1,0 @@
-.cover__text {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  z-index: 3;
-  opacity: 100%;
-}

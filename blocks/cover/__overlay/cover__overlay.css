@@ -7,6 +7,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-decoration: none;
+  border: 0;
+
 }
 
 .cover__overlay::before {
@@ -27,7 +30,6 @@
 
 @media screen and (max-width: 767px) {
   .cover__overlay {
-      padding-bottom: 64px;
       min-height: 200px;
   }
 }

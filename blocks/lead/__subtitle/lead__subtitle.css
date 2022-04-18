@@ -12,6 +12,7 @@
   .lead__subtitle {
       font-size: 16px;
       margin-bottom: 40px;
+      line-height: 1.25;
   }
 }
 

@@ -31,12 +31,12 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/place/__link/__link-url/place__link-url.css);
+@import url(../blocks/place/__link-url/place__link-url.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/cover/__image/cover__image.css);
-@import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/header/__link/_active/header__language_active.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 @import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
