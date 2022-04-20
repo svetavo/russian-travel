@@ -1,5 +1,5 @@
 .place__title {
-  max-width: 330px;
+  max-width: 100%;
   color: #ffffff;
   font-weight: 900;
   font-size: 72px;
@@ -17,7 +17,6 @@
 @media screen and (max-width: 767px) {
   .place__title {
       font-size: 32px;
-      max-width: 330px;
       padding-left: 16px;
   }
 }
